@@ -1,0 +1,43 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	A .git file is created in the repository. The period at the beginning
+	hides it/its contents from the user since the user doesn't interact
+	with those files very often or doesn't necessarily need to. We need
+	to do this so that we can create commits/branches and start making
+	tracked changes to the project.
+
+
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+	Answer.
+
+
+How can you use the staging area to make sure you have one commit per
+logical change?
+
+	Answer.
+
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+	Answer.
+
+
+How do the diagrams help you visualize the branch structure?
+
+	Answer.
+
+
+What is the result of merging two branches together? Why do we represent
+it in the diagram the way we do?
+
+	Answer.
+
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing
+merges manually?
+
+	Answer.
+
