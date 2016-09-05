@@ -8,7 +8,10 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Maybe a contributor has made changes on GitHub that 1) you are not
+    familiarized with yet and/or 2) you don't want in your local
+    directory. You would want to know of any changes made before adding
+    them to your own local directory.
 
 
 Describe the differences between forks, clones, and branches.  When would you
