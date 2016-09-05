@@ -1,0 +1,86 @@
+How did viewing a diff between two versions of a file help you see the
+bug that was introduced?
+
+	It helped because the diff command only shows you (for the most part)
+	lines that have changed throughout the code. Not only changed but
+	which lines were removed and which lines were added. This honestly
+	would have saved me hours of frustration and panic at one point
+	during my summer research. I actually copied and pasted old versions
+	of my code from a Time Machine backup to see if it would run properly
+	but it wasn’t the right classes. This would’ve been much quicker and
+	I would’ve been able to check more classes more easily. I made a
+	variable static which messed everything up by accident.
+
+
+How could having easy access to the entire history of a file make you a
+more efficient programmer in the long term?
+
+	Like I said in my previous answer, knowing this for my research last
+	summer would have saved me hours of frustration and panic. Not only
+	is it faster in finding the bug, making you able to progress further
+	with your code instead of staying stuck on one small thing, but it's
+	also more emotionally efficient because it saves you a lot of
+	negative emotion that can affect your thought process or lose your
+	initial train of thought or exhaust you and make you not want to
+	continue. It's both time- and emotion-efficient which can result in a
+	lot more and a lot more clear work done.
+
+
+What do you think are the pros and cons of manually choosing when to
+create a commit, like you do in Git, vs having versions automatically
+saved, like Google docs does?
+
+	Pro of Google Docs is that you don't have to think about saving
+	because it saves for you. This way if you forget to save manually,
+	you won't have to worry about it because it's already saved. However,
+	this way it is hard to track the changes in the history and find a
+	specific line or whatever you may be looking for. With Git, you have
+	to remember to commit a change, but you also have the option to
+	commit it in a logical place that makes sense to you. Google Docs
+	could save mid-sentence which wouldn't make sense, where as Git you
+	can complete everything you wish before committing. Also with Git,
+	you have to make the judgment call of when to make the commit,
+	without making it too small or big.
+
+
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each
+file separately?
+
+	Within a project, multiple classes/files (can) work together to run
+	properly and/or create different components that contribute to one
+	application. Because of this, tracking all files at once is useful in
+	case you make changes to multiple classes/files before committing a
+	change. In general, Google Docs' files don't have an effect on other
+	files. They all work/are edited independently of other documents or
+	files, so it wouldn't make sense to track all of your other files as
+	you make changes to one file.
+
+
+How can you use the commands git log and git diff to view the history of
+files?
+
+	git log allows you to view the most recent commits/the commit history
+	with each indivisual id, date, author, and description. git diff
+	allows you to compare two different commits.
+
+
+How might using version control make you more confident to make changes
+that could break something?
+
+	As long as you note down the most recent commit, you are able to
+	"checkout" any previous commits to see where a specific bug started
+	to occur, and then compare that commit with the previous one without
+	the bug. When you checkout the most recent commit, you retrieve all
+	the commits back and are back to the current version. Now that you
+	know where the bug is, you can fix the current version while still
+	keeping all the work that was done between when the bug was created.
+
+
+Now that you have your workspace set up, what do you want to try using
+Git for?
+
+	Using Git for the research I did last summer would be pretty cool.
+	And I'm assuming we will be using it for the content in this class,
+	so I'm excited to get more familiar with it.
+
